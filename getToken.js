@@ -1,7 +1,6 @@
 import config from "./config.json" assert {type:'json'};
 import * as fs from 'fs';
-import dotenv from 'dotenv'
-dotenv.config({path:"./../.env"});
+import 'dotenv/config'
 const base_url = process.env.BASE_URL;
 const client_id = process.env.CLIENT_ID;
 const client_secret = process.env.CLIENT_SECRET;
