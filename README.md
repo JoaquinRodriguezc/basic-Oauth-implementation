@@ -5,3 +5,7 @@ With this project, users can initiate the authentication process by visiting the
 They will be redirected to the authentication page, where they can grant permissions and receive an authorization code.  
 This code is then used to request an access token from the external API's token endpoint. The access token is stored in a config.json file for future use.
 
+### Endpoints
+
+GET /login: Redirects the user to the authentication page.
+GET /callback: Receives the authentication code, exchanges it for an access token, and returns the access token.
