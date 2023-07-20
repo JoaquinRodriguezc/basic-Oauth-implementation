@@ -7,5 +7,5 @@ This code is then used to request an access token from the external API's token 
 
 ### Endpoints
 
-GET /login: Redirects the user to the authentication page.
+GET /login: Redirects the user to the authentication page. 
 GET /callback: Receives the authentication code, exchanges it for an access token, and returns the access token.
